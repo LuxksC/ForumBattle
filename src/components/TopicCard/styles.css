@@ -1,5 +1,6 @@
 .topic {
   background: #fefefe;
+  max-width: 33vw;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
   padding: 24px;
@@ -69,4 +70,24 @@
   color: #29292e;
   font-size: 14px;
   text-align: justify;
+}
+
+@media (max-width: 1440px) {
+  .topic {
+    max-width: 48vw;
+  }
+  
+  .topicImage {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .topic {
+    max-width: 96vw;
+  }
+  
+  .topicImage {
+    max-height: 350px;
+  }
 }

@@ -7,7 +7,7 @@ export default function TopicsList({topics}) {
     <section className="listContainer">
       <h1 className="listTitle">Lista de tópicos</h1>
       <div className="topicsGridContainer">
-        {topics.map((topic) => ( <TopicCard topic={topic} /> ))}
+        {topics.map((topic, index) => ( <TopicCard topic={topic} key={index}/> ))}
       </div>
     </section>
   )
