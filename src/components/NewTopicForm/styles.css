@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.input, .textarea{
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 16px 12px;
+    width: 100%;
+}
+
+.textarea {
+    height: 130px;
+}
+
+.submitButton {
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}

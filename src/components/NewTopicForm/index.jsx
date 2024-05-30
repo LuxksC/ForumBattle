@@ -8,48 +8,45 @@ export default function NewTopicForm({submitAction}) {
   const [description, setDescription] = useState("");
   
   return (
-    <section>
-      <div>
-        <label htmlFor="author">Insira seu nome: </label>
-        <input
-          id="author"
-          value={author}
-          onChange={(e) => {
-            setAuthor(e.target.value);
-          }}
-        />
-      </div>
-      <div>
-        <label htmlFor="title">Título: </label>
-        <input
-          id="title"
-          value={title}
-          onChange={(e) => {
-            setTitle(e.target.value);
-          }}
-        />
-      </div>
-      <div>
-        <label htmlFor="image">Imagem: </label>
-        <input
-          id="image"
-          value={image_url}
-          onChange={(e) => {
-            setImageUrl(e.target.value);
-          }}
-        />
-      </div>
-      <div>
-        <label htmlFor="description">Descrição: </label>
-        <input
-          id="description"
-          value={description}
-          onChange={(e) => {
-            setDescription(e.target.value);
-          }}
-        />
-      </div>
+    <section className="form">
+      <input
+        id="author"
+        placeholder="Nome do autor"
+        className="input"
+        value={author}
+        onChange={(e) => {
+          setAuthor(e.target.value);
+        }}
+      />
+      <input
+        id="title"
+        placeholder='Título'
+        className="input"
+        value={title}
+        onChange={(e) => {
+          setTitle(e.target.value);
+        }}
+      />
+      <input
+        id="image"
+        placeholder='Url da imagem'
+        className="input"
+        value={image_url}
+        onChange={(e) => {
+          setImageUrl(e.target.value);
+        }}
+      />
+      <textarea
+        id="description"
+        placeholder='Descrição'
+        className="textarea"
+        value={description}
+        onChange={(e) => {
+          setDescription(e.target.value);
+        }}
+      />
       <button
+        className="submitButton"
         onClick={() => {
           const topic = {
             author,
@@ -60,6 +57,10 @@ export default function NewTopicForm({submitAction}) {
             title
           };
           submitAction(topic)
+          setDescription("")
+          setAuthor("")
+          setImageUrl("")
+          setTitle("")
         }}
       >
         Criar tópico
