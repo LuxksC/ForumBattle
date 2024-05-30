@@ -1,0 +1,137 @@
+{
+  "topics": {
+    "topic1": {
+      "author": "John Doe",
+      "title": "Formula 1 Racing",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Fernando_Alonso_-_Monaco_2019.jpg/320px-Fernando_Alonso_-_Monaco_2019.jpg",
+      "description": "Discuss the latest news, races, and developments in Formula 1 racing.",
+      "likes": 15,
+      "comments": {
+        "comment1": {
+          "user": "Alice",
+          "comment": "The Monaco Grand Prix was thrilling! What was your favorite moment?",
+          "likes": 7
+        },
+        "comment2": {
+          "user": "Bob",
+          "comment": "I'm a huge fan of Lewis Hamilton. He's dominating this season!",
+          "likes": 12
+        }
+      }
+    },
+    "topic2": {
+      "author": "Jane Smith",
+      "title": "Artificial Intelligence in Sports Analytics",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/AI-ASLEEP.png/320px-AI-ASLEEP.png",
+      "description": "Explore how AI is revolutionizing sports analytics and performance analysis.",
+      "likes": 34,
+      "comments": {
+        "comment1": {
+          "user": "Charlie",
+          "comment": "AI-powered player tracking is changing the game! What do you think?",
+          "likes": 22
+        },
+        "comment2": {
+          "user": "David",
+          "comment": "Sports teams are investing heavily in AI for strategic insights.",
+          "likes": 16
+        }
+      }
+    },
+    "topic3": {
+      "author": "Emily Johnson",
+      "title": "Basketball Technology Innovations",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Basketball_game.jpg/320px-Basketball_game.jpg",
+      "description": "Discuss the latest tech innovations in basketball equipment and training methods.",
+      "likes": 19,
+      "comments": {
+        "comment1": {
+          "user": "Emily",
+          "comment": "Wearable sensors are revolutionizing player performance tracking!",
+          "likes": 14
+        },
+        "comment2": {
+          "user": "Frank",
+          "comment": "Virtual reality training for basketball is the future of skill development.",
+          "likes": 9
+        }
+      }
+    },
+    "topic4": {
+      "author": "Alex Brown",
+      "title": "E-Sports Championships",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/ESL_One_Cologne_2016_%2821539313484%29.jpg/320px-ESL_One_Cologne_2016_%2821539313484%29.jpg",
+      "description": "Join the discussion about the biggest e-sports tournaments and competitions.",
+      "likes": 41,
+      "comments": {
+        "comment1": {
+          "user": "Grace",
+          "comment": "The recent League of Legends Worlds was epic! Did you watch it?",
+          "likes": 37
+        },
+        "comment2": {
+          "user": "Henry",
+          "comment": "E-sports is gaining mainstream recognition. Exciting times!",
+          "likes": 25
+        }
+      }
+    },
+    "topic5": {
+      "author": "Michael Anderson",
+      "title": "Augmented Reality in Sports Broadcasting",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Augmented_Reality_on_Sports_Broadcasting.png/320px-Augmented_Reality_on_Sports_Broadcasting.png",
+      "description": "Explore how augmented reality is enhancing the sports viewing experience.",
+      "likes": 28,
+      "comments": {
+        "comment1": {
+          "user": "Isabella",
+          "comment": "AR overlays during live matches provide great insights!",
+          "likes": 22
+        },
+        "comment2": {
+          "user": "Jack",
+          "comment": "I love the stats and graphics overlaid on the field during games.",
+          "likes": 17
+        }
+      }
+    },
+    "topic6": {
+      "author": "Sophia Wilson",
+      "title": "Future of Wearable Technology in Fitness",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Fitbit_Flex_sleep_wristband.jpg/320px-Fitbit_Flex_sleep_wristband.jpg",
+      "description": "Discuss the latest advancements in wearable tech for fitness tracking and health monitoring.",
+      "likes": 33,
+      "comments": {
+        "comment1": {
+          "user": "Katherine",
+          "comment": "Wearable devices have transformed how we approach fitness!",
+          "likes": 28
+        },
+        "comment2": {
+          "user": "Liam",
+          "comment": "I'm excited about the potential of smart clothing for athletes.",
+          "likes": 19
+        }
+      }
+    },
+    "topic7": {
+      "author": "Daniel Martinez",
+      "title": "Robotics in Sports",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/RoboCup_Mexico_vs_Australia.jpg/320px-RoboCup_Mexico_vs_Australia.jpg",
+      "description": "Explore how robots are being used in sports training and competitions.",
+      "likes": 37,
+      "comments": {
+        "comment1": {
+          "user": "Mia",
+          "comment": "Robotic soccer matches are fascinating to watch!",
+          "likes": 31
+        },
+        "comment2": {
+          "user": "Noah",
+          "comment": "I'm curious about the applications of robotics in other sports.",
+          "likes": 24
+        }
+      }
+    }
+  }
+}

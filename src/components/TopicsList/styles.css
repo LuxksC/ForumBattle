@@ -1,0 +1,28 @@
+.listContainer {
+  padding: 16px;
+  max-width: 1440px;
+}
+
+.listTitle {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.topicsGridContainer {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 1440px) {
+  .topicsGridContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .topicsGridContainer {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,93 @@
+.topic {
+  background: #fefefe;
+  max-width: 33vw;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  padding: 24px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px
+}
+
+.topicHeaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.topicHeaderIconContainer {
+  border: 1px solid #835AFD;
+  border-radius: 6px;
+  padding: 6px;
+  color: #835AFD;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  cursor: pointer;
+}
+
+.topicHeaderText {
+  font-size: 14px;
+}
+
+.topicHeaderIcon {
+  height: 16px;
+  width: auto;
+}
+
+.authorImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #835AFD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.authorName {
+  color: #737380;
+  font-size: 14px;
+}
+
+.topicTitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.topicImage {
+  border-radius: 12px;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.topicDescription {
+  color: #29292e;
+  font-size: 14px;
+  text-align: justify;
+}
+
+@media (max-width: 1440px) {
+  .topic {
+    max-width: 48vw;
+  }
+  
+  .topicImage {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .topic {
+    max-width: 96vw;
+  }
+  
+  .topicImage {
+    max-height: 350px;
+  }
+}
