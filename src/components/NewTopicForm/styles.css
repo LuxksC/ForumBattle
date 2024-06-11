@@ -13,7 +13,7 @@
     transform: translate(-50%, 0);
 }
 
-.input, .textarea{
+.input, .textarea {
     border: 1px solid gray;
     border-radius: 12px;
     padding: 16px 12px;
